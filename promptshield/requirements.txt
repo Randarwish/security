@@ -1,0 +1,2 @@
+datasets==4.8.5
+google-genai==2.34.0

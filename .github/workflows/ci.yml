@@ -11,4 +11,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Compile project source
-        run: python -m compileall -q satelliteshield adversarialsoc threatgraph
+        run: python -m compileall -q satelliteshield adversarialsoc threatgraph promptshield
+      - name: Test benchmark and credit threshold logic without API calls
+        run: python -m unittest promptshield.test_promptshield -v

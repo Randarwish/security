@@ -1,0 +1,14 @@
+{
+  "dataset": "deepset/prompt-injections",
+  "revision": "b4218bf21defc7780bfca76d7048fd23f165977a",
+  "files": {
+    "train.jsonl": {
+      "rows": 546,
+      "sha256": "4294fcbd0ce2b543675076e8d42707f129992929a6bec91d961f2e96b0d5ceb7"
+    },
+    "test.jsonl": {
+      "rows": 116,
+      "sha256": "de0996d15cabd838d50a4925a8493062ba70c29f845601cd6a17412236614486"
+    }
+  }
+}

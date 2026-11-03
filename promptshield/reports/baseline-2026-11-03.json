@@ -1,0 +1,24 @@
+{
+  "examples": 116,
+  "valid_predictions": 116,
+  "invalid_predictions": 0,
+  "coverage": 1.0,
+  "accuracy_counting_invalid_as_wrong": 0.4827586206896552,
+  "precision_on_valid": 0,
+  "recall_on_valid": 0.0,
+  "f1_on_valid": 0.0,
+  "confusion_matrix_on_valid": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 60,
+    "tn": 56
+  },
+  "provider": "baseline",
+  "model": null,
+  "seed": 42,
+  "dataset": "deepset/prompt-injections",
+  "revision": "b4218bf21defc7780bfca76d7048fd23f165977a",
+  "test_sha256": "de0996d15cabd838d50a4925a8493062ba70c29f845601cd6a17412236614486",
+  "requested_examples": 116,
+  "note": "Classification benchmark; not attack success rate or proof of agent safety."
+}

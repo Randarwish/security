@@ -1,12 +1,13 @@
 # AI Security Research Portfolio
 
-Three runnable research prototypes using publicly documented scientific and cybersecurity datasets. **Source code is published; no model training or benchmark runs have been performed yet.**
+Four research prototypes using publicly documented scientific and cybersecurity datasets. See each project for measured results and connection status; implemented code alone is not evidence of performance.
 
 | Project | Data | Research question | Status |
 | --- | --- | --- | --- |
 | [SatelliteShield](satelliteshield/) | EuroSAT RGB / Sentinel-2-derived | How robust is a land-cover classifier to FGSM and PGD pixel attacks? | Implementation |
 | [AdversarialSOC](adversarialsoc/) | CIC-IDS2017 labeled research traffic | How does intrusion detection respond to feature corruption? | Implementation; no validated evasion |
 | [ThreatGraph AI](threatgraph/) | MITRE ATT&CK Enterprise STIX | Can we build a provenance-preserving threat-technique graph? | Implementation |
+| [PromptShield](promptshield/) | deepset prompt-injections | How well does Gemini detect prompt injection compared with a fixed baseline? | Baseline measured: 48.28% accuracy, 0% injection recall; Gemini pending |
 
 ## Reproducibility and ethics
 
@@ -15,7 +16,7 @@ Three runnable research prototypes using publicly documented scientific and cybe
 - Do not mistake simulated or testbed observations for operational incident data.
 - No attack on live satellites, networks, or third-party infrastructure.
 - Do not infer performance from code alone; publish measured results after running experiments.
-- Cloud deployment is not configured; no cloud credit has been spent.
+- Cloud deployment and live billing alerts are not configured. PromptShield's local baseline uses no model API calls; account-wide spend must be verified in Cloud billing.
 
 ## Next milestones
 
